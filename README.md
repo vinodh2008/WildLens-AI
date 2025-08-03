@@ -61,13 +61,21 @@ wildlens-ai/
 ```
 ## 📸 Sample Output
 Upload an image of a lion, tiger, elephant, dog, or any animal and watch AI do its magic!
+
 <img width="678" height="452" alt="image" src="https://github.com/user-attachments/assets/8198e9e4-7268-4e8d-9d52-1cf6dbe4c4d5" />
 
 ✅ Predicted Animal: Lion (95.67% confidence)
 📚 Did You Know?
-1. The lion is one of the big cats in the genus Panthera.
-2. Lions live in groups called prides.
-   
+✅ The lion (Panthera leo) is a large cat of the genus Panthera, native to Sub-Saharan Africa and India.
+
+✅ It has a muscular, broad-chested body; a short, rounded head; round ears; and a dark, hairy tuft at the tip of its tail.
+
+✅ It is sexually dimorphic; adult male lions are larger than females and have a prominent mane.
+
+✅ It is a social species, forming groups called prides.
+
+✅ A lion's pride consists of a few adult males, related females, and cubs.
+
 ## 📜 License
 This project is open-source and available under the MIT License.
 
