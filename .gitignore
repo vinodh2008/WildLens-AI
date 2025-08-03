@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+*.log
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# Streamlit and system files
+*.DS_Store
+*.sqlite3
+*.db
+*.swp
+
+# Models
+*.h5
+*.pkl
+*.joblib
+models/
+
+# Image and uploads (optional)
+uploads/
+*.jpg
+*.jpeg
+*.png
+
+# VS Code & PyCharm
+.vscode/
+.idea/
