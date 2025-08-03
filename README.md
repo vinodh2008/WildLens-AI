@@ -42,11 +42,11 @@ python -m venv venv
 source venv/bin/activate     # On Linux/Mac
 venv\Scripts\activate        # On Windows
 ```
-###3. Install the requirements
+### 3. Install the requirements
 ```
 pip install -r requirements.txt
 ```
-###4. Run the app
+### 4. Run the app
 ```
 streamlit run app.py
 ```
