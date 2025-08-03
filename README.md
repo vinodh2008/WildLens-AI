@@ -64,7 +64,7 @@ Upload an image of a lion, tiger, elephant, dog, or any animal and watch AI do i
 
 <img width="678" height="452" alt="image" src="https://github.com/user-attachments/assets/8198e9e4-7268-4e8d-9d52-1cf6dbe4c4d5" />
 
-✅ Predicted Animal: Lion (95.67% confidence)
+✅ Predicted Animal: Lion (100.00% confidence)
 
 📚 Did You Know?
 
