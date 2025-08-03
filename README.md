@@ -65,7 +65,9 @@ Upload an image of a lion, tiger, elephant, dog, or any animal and watch AI do i
 <img width="678" height="452" alt="image" src="https://github.com/user-attachments/assets/8198e9e4-7268-4e8d-9d52-1cf6dbe4c4d5" />
 
 ✅ Predicted Animal: Lion (95.67% confidence)
+
 📚 Did You Know?
+
 ✅ The lion (Panthera leo) is a large cat of the genus Panthera, native to Sub-Saharan Africa and India.
 
 ✅ It has a muscular, broad-chested body; a short, rounded head; round ears; and a dark, hairy tuft at the tip of its tail.
