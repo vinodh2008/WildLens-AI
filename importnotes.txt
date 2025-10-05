@@ -1,0 +1,132 @@
+🔹 Project Title
+
+WildLens AI – Animal Identifier
+
+🔹 Problem Statement
+
+When people go into forests, sanctuaries, or even see unknown animals online, they may not know what that animal is. Manually searching wastes time.
+So, this system allows users to upload an image → AI model checks if it is an animal → if yes, identifies which animal and shows facts + Wikipedia link.
+If the photo is not an animal (like bottle, car, chair, etc.), the system says: “This is not an animal, please upload an animal photo.”
+
+🔹 Technology Stack
+
+👉 You can proudly say:
+
+Frontend: HTML, CSS, JavaScript (for UI and file upload).
+
+Backend Framework: Flask (Python micro web framework).
+
+Programming Language: Python.
+
+Libraries Used (Python):
+
+TensorFlow/Keras → for loading and using the CNN model (VGG16).
+
+NumPy → for handling image arrays.
+
+PIL (Pillow) → for image preprocessing (resize, load).
+
+Requests / Wikipedia API (optional) → to fetch facts and links.
+
+Werkzeug/Flask utilities → for file upload handling.
+
+🔹 Model Used
+
+CNN (Convolutional Neural Network):
+
+CNN is best for image recognition.
+
+In your project, you used VGG16 (pre-trained on ImageNet dataset – 1000 classes including animals like tiger, lion, elephant, etc.).
+
+Transfer Learning is used → means instead of training from scratch, you use a model already trained on millions of images and just apply it to your dataset/task.
+
+🔹 How It Works (Step by Step)
+
+User uploads an image from the browser.
+
+Frontend (HTML, CSS, JS) → sends image to backend Flask server using AJAX (fetch() in script.js).
+
+Backend (Flask + Python):
+
+Flask receives the image.
+
+Model (VGG16 CNN) preprocesses the image (resize → normalize).
+
+Prediction is made (e.g., “Tiger” with 92% confidence).
+
+If prediction is animal class → return result + facts + wiki link.
+
+If not an animal → return message “Not an animal, please upload an animal photo.”
+
+Frontend (JS + HTML):
+
+Displays the result to the user.
+
+Shows confidence score, facts, and Wikipedia link.
+
+🔹 Libraries – How They Work
+
+TensorFlow/Keras → Loads VGG16 model and runs predictions.
+
+NumPy → Converts image into array form for the model.
+
+PIL → Reads and resizes the image to 224x224 (required by VGG16).
+
+Flask → Connects frontend and model, handles requests/responses.
+
+Wikipedia API → Brings extra information about the animal.
+
+🔹 Why AI/ML/DL?
+
+AI (Artificial Intelligence): The broad field.
+
+ML (Machine Learning): Training models from data.
+
+DL (Deep Learning): Using neural networks with multiple layers.
+
+Your project = Deep Learning (CNN).
+
+🔹 Your Role as Leader
+
+Since you’re the leader:
+
+You coordinated your team.
+
+You managed integration of frontend + backend + AI model.
+
+You ensured that the project solves a real-world problem (animal recognition).
+
+🔹 Improvements (If Examiner Asks)
+
+You can say future improvements:
+
+Add mobile app version (Android/iOS).
+
+Expand dataset to cover all world animals.
+
+Add real-time camera support (upload + live camera).
+
+Multilingual support (facts in Telugu, Hindi, English).
+
+🔹 Expected Questions in Viva & Answers
+
+Q: Which algorithm/model did you use?
+A: VGG16 CNN (pre-trained model on ImageNet).
+
+Q: Why CNN?
+A: CNN is best for image recognition because it automatically extracts features like edges, shapes, textures, which are essential in classifying animals.
+
+Q: What happens if I upload a non-animal image?
+A: The system detects it is not an animal and shows a message instead of wrong facts.
+
+Q: What languages did you use?
+A: Python for backend + AI, HTML/CSS/JS for frontend, Flask as framework.
+
+Q: What libraries are essential for your project?
+A: TensorFlow/Keras, NumPy, Pillow, Flask, Requests, Wikipedia API.
+
+Q: Is this AI, ML, or DL?
+A: It’s a Deep Learning project under AI, using CNN model.
+-----------------------------------------------------------------------------------------
+“We also implemented a validation step. If the uploaded image is not detected as an animal, 
+our system will not fetch Wikipedia facts and instead displays a message: ‘Please upload an animal photo.’”
